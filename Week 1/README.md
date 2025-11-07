@@ -5,17 +5,17 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 Learning Objectives
 
-Understand SOC structure, roles, and responsibilities
-
-Learn key security monitoring and log management fundamentals
-
-Explore core security tools such as SIEM, EDR, IDS/IPS, and vulnerability scanners
-
-Apply basic security concepts including the CIA triad, threats, vulnerabilities, and risk
-
-Follow standard SOC workflows and incident response lifecycles
-
-Practice documenting security events, creating dashboards, and configuring alerts
+  Understand SOC structure, roles, and responsibilities
+  
+  Learn key security monitoring and log management fundamentals
+  
+  Explore core security tools such as SIEM, EDR, IDS/IPS, and vulnerability scanners
+  
+  Apply basic security concepts including the CIA triad, threats, vulnerabilities, and risk
+  
+  Follow standard SOC workflows and incident response lifecycles
+  
+  Practice documenting security events, creating dashboards, and configuring alerts
 
 Theoretical Knowledge
 SOC Fundamentals and Operations
