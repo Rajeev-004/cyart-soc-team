@@ -17,7 +17,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ## Theoretical Knowledge
 
-- 🧩 SOC Fundamentals and Operations Learn:
+- SOC Fundamentals and Operations Learn:
   - Purpose: Proactive threat detection, incident response, continuous monitoring
   - Roles: Tier 1/2/3 analysts, SOC manager, threat hunters
   - Key Functions: Log analysis, alert triage, threat intelligence integration
@@ -25,7 +25,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 🔍 Security Monitoring Basics Learn:
+- Security Monitoring Basics Learn:
   - Objectives: Detect anomalies, unauthorized access, and policy violations
   - Tools: SIEM (Splunk, Elastic), network traffic analyzers (Wireshark)
   - Key Metrics: False positives/negatives, Mean Time to Detect (MTTD)
@@ -33,7 +33,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 🧾 Log Management Fundamentals Learn:
+- Log Management Fundamentals Learn:
   - Log Lifecycle: Collection, normalization, storage, retention, analysis
   - Common Log Types: Windows Event Logs, Syslog, HTTP server logs
   - Tools: Fluentd, Logstash
@@ -41,7 +41,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 🛠️ Security Tools Overview Learn:
+- Security Tools Overview Learn:
   - SIEM: Splunk, QRadar
   - EDR: CrowdStrike
   - IDS/IPS: Snort
@@ -50,7 +50,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 🧠 Basic Security Concepts Learn:
+- Basic Security Concepts Learn:
   - CIA Triad: Confidentiality, Integrity, Availability
   - Threat vs Vulnerability vs Risk
   - Defense-in-Depth, Zero Trust
@@ -58,7 +58,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- ⚙️ Security Operations Workflow Learn:
+- Security Operations Workflow Learn:
   - Detection: Alerts from SIEM/EDR
   - Triage: Prioritize based on severity
   - Investigation: Correlate logs, hunt IOCs
@@ -67,13 +67,13 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 🚨 Incident Response Basics Learn:
+- Incident Response Basics Learn:
   - IR Lifecycle: Preparation → Identification → Containment → Eradication → Recovery → Lessons Learned
   - References: NIST SP 800-61, tabletop exercises (ransomware scenario)
 
 ---
 
-- 🗒️ Documentation Standards Learn:
+-  Documentation Standards Learn:
   - Incident reports, runbooks, SOPs, post-mortems
   - References: SANS Incident Handler’s Handbook
 
@@ -81,7 +81,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ## Practical Application
 
-- 1️⃣ Log Analysis Practice
+1️⃣ Log Analysis Practice
   - Windows Event Viewer:
     - Filter for Event ID 4625 (failed login) or 7045 (new service creation)
     - Identify brute-force attacks from Security logs
@@ -98,7 +98,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 2️⃣ Document Security Events
+ 2️⃣ Document Security Events
   - Create a template with fields:
     ```
     Date/Time          Source IP      Event ID   Description                      Action Taken
@@ -108,7 +108,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 3️⃣ Set Up Monitoring Dashboards
+ 3️⃣ Set Up Monitoring Dashboards
   - In Kibana or Grafana, create visualizations for:
     - Top 10 source IPs generating alerts
     - Frequency of critical Event IDs
@@ -116,7 +116,7 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-- 4️⃣ Configure Alert Rules
+ 4️⃣ Configure Alert Rules
   - In Elastic SIEM:
     - Rule: “Detect 5+ failed logins in 5 minutes”
     - Index: security-login-*
