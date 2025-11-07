@@ -137,4 +137,3 @@ Students will gain hands-on experience in log collection, analysis, alert config
 
 ---
 
-✅ Tip: To preview formatting in VS Code, press Ctrl + Shift + V or right-click → Open Preview.
